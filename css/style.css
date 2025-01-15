@@ -26,7 +26,6 @@ body {
 }
 
 .layout_padding-bottom {
-  padding-top: 50px;
   padding-bottom: 120px;
 }
 
@@ -835,10 +834,6 @@ a:focus {
 
 .footer_section a {
   color: inherit;
-}
-
-#padded-space {
-  padding-top: 100px;
 }
 
 /* end footer section*/
