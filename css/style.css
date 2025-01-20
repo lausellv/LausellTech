@@ -684,6 +684,9 @@ a:focus {
 
 .contact_section input.message-box {
   height: 135px;
+  resize: vertical; 
+  overflow: auto;
+  white-space: normal;
 }
 
 .contact_section button {
