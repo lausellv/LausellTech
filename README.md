@@ -1,2 +1,2 @@
 # LAUSELL TECH
-WebPage
+WebPage created using basic HTML and CSS
