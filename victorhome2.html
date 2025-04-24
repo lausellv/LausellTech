@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Lausell - IT Professional</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #007bff; /* Keeping header border */
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+            color: #333;
+            font-size: 2.2em;
+        }
+
+        header .contact-info {
+            font-size: 0.9em;
+            color: #555;
+            word-wrap: break-word;
+        }
+        header .contact-info span,
+        header .contact-info a {
+             margin: 0 5px;
+        }
+
+        header .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        header .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        header .tagline {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+        h2 {
+            color: #0056b3;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            font-size: 1.6em;
+            font-weight: 600; /* Standard heading weight */
+        }
+
+        h3 {
+            color: #333;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+            font-weight: 600; /* Standard subheading weight */
+        }
+
+        .job {
+            margin-bottom: 25px;
+            padding-left: 0; /* Removed padding related to the border */
+            /* Removed border-left: 3px solid #007bff; */
+        }
+
+        .job-title {
+            font-weight: bold; /* Keeping job title bold */
+        }
+
+        .job-details {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-weight: normal; /* Ensure list items are normal weight */
+        }
+
+        .skills-list, .certs-list, .edu-list {
+             padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.8em;
+            color: #777;
+        }
+
+        /* --- Responsive Styles --- */
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px auto;
+                padding: 15px;
+            }
+
+            header h1 { font-size: 1.8em; }
+            header .tagline { font-size: 1em; }
+            h2 { font-size: 1.4em; }
+            h3 { font-size: 1.1em; }
+            body { font-size: 15px; }
+        }
+
+        @media (max-width: 480px) {
+             .container {
+                margin: 10px auto;
+                padding: 10px;
+                border-radius: 0;
+                box-shadow: none;
+             }
+
+             header h1 { font-size: 1.6em; }
+             header .contact-info span,
+             header .contact-info a {
+                 display: block;
+                 margin: 3px 0;
+             }
+              header .contact-info span:first-child {
+                  margin-top: 10px;
+              }
+
+             ul, .skills-list, .certs-list, .edu-list {
+                 margin-left: 15px;
+                 padding-left: 10px;
+             }
+
+             footer { font-size: 0.75em; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>VICTOR LAUSELL</h1>
+            <!-- Updated Tagline -->
+            <p class="tagline">Experienced IT Professional | Network Specialist</p>
+            <div class="contact-info">
+                <span>817-223-0227</span> |
+                <a href="mailto:victorlausell@gmail.com">victorlausell@gmail.com</a> |
+                <!-- <a href="[Your Portfolio Link]" target="_blank">Portfolio (LAUSELL)</a> | -->
+                <span>Nationality: US / EU</span>
+            </div>
+        </header>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <!-- Updated Summary -->
+            <p>
+                Dedicated IT professional with 3+ years of experience ensuring reliable and secure network operations. Proven ability in managing IT infrastructure, providing comprehensive technical support, and implementing security best practices (CCNA and CompTIA Security+ certified). Seeking opportunities to leverage expertise in IT infrastructure and networking to drive organizational success.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <div class="job">
+                <!-- Job Title remains bold via .job-title class -->
+                <h3><span class="job-title">Associate Manager, Computer Science Center</span></h3>
+                <p class="job-details">Tarrant County College | Fort Worth, TX | 08/2022 - Present</p>
+                <ul>
+                    <!-- Removed student-focus spans, list items are now normal weight -->
+                    <li>Manage and maintain a 40-workstation computer lab, ensuring robust network connectivity, troubleshooting network issues, and providing essential technical support to students and faculty.</li>
+                    <li>Administer and maintain critical network hardware and software infrastructure.</li>
+                    <li>Provide training and support on networking concepts and software applications to students and faculty.</li>
+                    <li>Support students preparing for the CCNA certification, demonstrating a deep understanding of networking principles.</li>
+                    <li>Manage lab resources effectively, including software licenses and equipment inventory.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                 <h3><span class="job-title">Faculty Member, Modern Languages Department</span></h3>
+                <p class="job-details">Comillas Pontifical University | Madrid, Spain | 04/2008 – 08/2022</p>
+                <ul>
+                    <!-- Removed student-focus spans, list items are now normal weight -->
+                    <li>Collaborated proactively with the IT department to maintain and update computer systems, ensuring reliable network connectivity and software functionality for faculty and students.</li>
+                    <li>Provided crucial remote technical assistance and troubleshooting to faculty and students during the COVID-19 lockdown, ensuring continuity of access to online learning resources.</li>
+                    <li>Coordinated the TOEFL examination for students studying abroad, demonstrating strong organizational and logistical skills.</li>
+                    <li>Instructed and coached students in communication and presentation skills, fostering a collaborative learning environment.</li>
+                    <li>Delivered business courses integrating practical applications of Microsoft Office Suite, emphasizing effective communication and technology integration.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Network Administration (Routers, Switches, ACL, DHCP, DNS, IP networks)</li>
+                <li>Network Troubleshooting and Support</li>
+                <li>Virtualization (VMware, Azure, Hyper-V, Virtual Box, Docker)</li>
+                <li>Microsoft Office Suite</li>
+                <li>Training and Instruction</li>
+                <li>Technical Support (Hardware & Software)</li>
+                <li>Collaboration and Teamwork</li>
+                <li>Languages: Fluent in English, French, and Spanish</li>
+                <!-- <li>LAUSELL (deployed using GitHub) - Consider clarifying what this is or linking to it -->
+            </ul>
+        </section>
+
+         <section id="certifications">
+            <h2>Certifications</h2>
+            <ul class="certs-list">
+                <li>CCNA (2024)</li>
+                <li>CompTIA Security+ (2024)</li>
+                <li>CompTIA Network+ (2024)</li>
+                 <li>CompTIA Server+ (2024)</li>
+                <li>Microsoft Azure Fundamentals (2024)</li>
+                <li>CompTIA CNIP (2024)</li>
+            </ul>
+        </section>
+
+
+        <section id="education">
+            <h2>Education</h2>
+             <ul class="edu-list">
+                <li>Associate's degree in Information Technology, Network Support | Tarrant County College, Fort Worth, TX</li>
+                <li>Bachelor of Arts, Economics, French & International Relations | Cornell University | Ithaca, NY</li>
+                <li>Master of Science in Foodservice Management | Michigan State University | East Lansing, MI</li>
+             </ul>
+        </section>
+
+        <footer>
+            <p>© 2024 Victor Lausell. All rights reserved.</p>
+        </footer>
+
+    </div> <!-- /container -->
+</body>
+</html>
